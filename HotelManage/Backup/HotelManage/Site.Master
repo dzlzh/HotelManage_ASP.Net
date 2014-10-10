@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="HotelManage.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="zk">
+      <div class="top">
+    <img alt="" src="image/084088GLN_01.gif" /><img alt="" src="image/084088GLN_02.gif" /><img alt="" src="image/084088GLN_03.gif" />
+    </div>
+      <div  class="Menu">
+        <asp:Menu ID="Menu1" runat="server"  Orientation="Horizontal" 
+            StaticSubMenuIndent="16px" Font-Bold="False">
+            <Items>
+                <asp:MenuItem Text="Hotel" Value="新建项" NavigateUrl="~/Default.aspx"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/image/a001.gif" Text="基础设置" Value="基础设置" 
+                    Selectable="False">
+                    <asp:MenuItem ImageUrl="~/image/room.jpg" Selectable="False">
+                        <asp:MenuItem ImageUrl="~/image/viewRoom.jpg" NavigateUrl="~/ViewRoom.aspx"></asp:MenuItem>
+                        <asp:MenuItem ImageUrl="~/image/addRoom.jpg" NavigateUrl="~/AddRoom.aspx"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem ImageUrl="~/image/roomType.jpg" Selectable="False">
+                        <asp:MenuItem ImageUrl="~/image/viewRoomType.jpg" 
+                            NavigateUrl="~/ViewRoomType.aspx"></asp:MenuItem>
+                        <asp:MenuItem ImageUrl="~/image/addRoomType.jpg" 
+                            NavigateUrl="~/AddRoomType.aspx"></asp:MenuItem>
+                    </asp:MenuItem>
+                </asp:MenuItem>
+            </Items>
+        </asp:Menu>
+    </div>
+      <div class="nr">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+    </div>
+   
+    </form>
+</body>
+</html>

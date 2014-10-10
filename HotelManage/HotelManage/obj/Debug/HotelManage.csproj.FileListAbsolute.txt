@@ -1,0 +1,5 @@
+X:\课程\ASP\酒店管理系统—ASP.NET版（一）\HotelManage\HotelManage\bin\HotelManage.dll
+X:\课程\ASP\酒店管理系统—ASP.NET版（一）\HotelManage\HotelManage\bin\HotelManage.pdb
+X:\课程\ASP\酒店管理系统—ASP.NET版（一）\HotelManage\HotelManage\obj\Debug\HotelManage.csprojResolveAssemblyReference.cache
+X:\课程\ASP\酒店管理系统—ASP.NET版（一）\HotelManage\HotelManage\obj\Debug\HotelManage.dll
+X:\课程\ASP\酒店管理系统—ASP.NET版（一）\HotelManage\HotelManage\obj\Debug\HotelManage.pdb
